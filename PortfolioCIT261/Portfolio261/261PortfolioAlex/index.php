@@ -7,11 +7,9 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>261 Portfolio Home</title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <h1>Alex's Portfolio</h1>
     </body>
 </html>
