@@ -10,6 +10,14 @@ and open the template in the editor.
         <title>261 Portfolio Home</title>
     </head>
     <body>
-        <h1>Alex's Portfolio</h1>
+        
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
+        
+       <div class="site-wrap">
+        
+           
+           <h1>Alex's Portfolio</h1>
+       
+       </div>
     </body>
 </html>
