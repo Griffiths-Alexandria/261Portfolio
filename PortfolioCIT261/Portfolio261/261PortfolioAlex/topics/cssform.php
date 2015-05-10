@@ -19,11 +19,16 @@ and open the template in the editor.
 
             <p class="font">
                 CSS3 Transforms
+                <br>
+                Use the drop down menu to view the HTML, CSS, and Result.
                 
-                <br>This portfolio site will serve as a collection 
-                of the semester's initial understanding topic 
-                definitions and examples.
-                
+                <br>
+                <iframe width="100%" height="500" src="//jsfiddle.net/acgriffiths/yxevwcbc/32/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+            
+                <br>
+                Sources:
+                <br>
+                <a href="http://www.w3schools.com/css/css3_2dtransforms.asp" title="w3Schools">http://www.w3schools.com/css/css3_2dtransforms.asp</a>
             </p>
             
         
