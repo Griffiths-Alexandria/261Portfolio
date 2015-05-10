@@ -6,18 +6,31 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <meta charset="UTF-8">
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/meta.php'; ?>
         <title>261 Portfolio Home</title>
     </head>
     <body>
-        
-        <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
-        
-       <div class="site-wrap">
-        
-           
-           <h1>Alex's Portfolio</h1>
+    
+            <h1 class="font">CIT 261 Learning Portfolio</h1>            
+
+            <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
        
-       </div>
+        
+
+            <p class="font">
+                Spring 2015 CIT 261 
+                
+                <br>This portfolio site will serve as a collection 
+                of the semester's initial understanding topic 
+                definitions and examples.
+                
+            </p>
+            
+        
+        
+        
+        
     </body>
+        
+        
 </html>
