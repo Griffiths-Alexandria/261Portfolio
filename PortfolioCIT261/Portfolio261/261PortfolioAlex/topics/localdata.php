@@ -10,8 +10,7 @@ and open the template in the editor.
         <title>261 Portfolio Home</title>
     </head>
     <body>
-    
-            <h1 class="font">CIT 261 Learning Portfolio</h1>            
+             
 
             <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
        

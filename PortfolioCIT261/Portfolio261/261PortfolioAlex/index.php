@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
     
-            <h1 class="font">CIT 261 Learning Portfolio</h1>            
+                     
 
             <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
        
@@ -27,7 +27,7 @@ and open the template in the editor.
             </p>
             
         
-        
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/footer.php'; ?>
         
         
     </body>

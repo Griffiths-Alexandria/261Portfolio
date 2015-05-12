@@ -12,19 +12,28 @@ body {
     background-image: url("/images/background261.jpg")
 }
 
+#center {
+    margin: auto; 
+}
+
 p {
-    color: #ffffff; 
-    float: right;
-    position: relative;
-    width: 500px;
-    font-size: 30px;
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-    background-color: #519193;
-    margin-top: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-right: 75px;
+  color: #ffffff;
+  float: right;
+  position: relative;
+  width: 70%;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #519193;
+  margin-top: 0px;
+  padding-left: 10px; 
+  text-align: center;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+iframe {
+    width: 80%; 
 }
 
 p a{
@@ -34,20 +43,34 @@ p a{
 
 h2 {
     color: #ffffff; 
+    padding-left: 40px;
 }
 
 h2 a {
     text-decoration: none; 
 }
 
+h2 a:hover{
+    color: #519193; 
+}
+
+h2 a:visited {
+    text-decoration: none; 
+    color: #ffffff; 
+}
+
 h1 {
      color: #ffffff; 
+     font-size: 4em;
+     padding-left: 10px;
 }
 
 div {
-    width: 200px; 
+    width: 20%; 
     float: left;
+    padding-left: 20px;
 }
+
 
 #cssmenu,
 #cssmenu ul,
@@ -60,7 +83,7 @@ div {
   line-height: 1;
   display: block;
   position: relative;
-  width: 200px; 
+  width: 100%; 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -69,12 +92,12 @@ div {
   font-family: Roboto, sans-serif;
 }
 #cssmenu > ul {
-  width: 180px;
+  width: 100%;
   background: #ffffff;
 }
 #cssmenu > ul > li > a {
   padding: 12px 15px;
-  font-size: 20px;
+  font-size: 1.10em;
   color: #232726;
   font-weight: 700;
   text-decoration: none;
@@ -86,4 +109,16 @@ div {
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li > a:hover {
   color: #222222;
+}
+
+footer {
+    display: block;
+    position: relative;
+    margin-top: 500px; 
+    color: #ffffff; 
+    padding: 10px;
+}
+
+h6 {
+    font-size: 1em; 
 }

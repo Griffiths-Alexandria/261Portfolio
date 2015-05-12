@@ -10,8 +10,7 @@ and open the template in the editor.
         <title>261 Portfolio Home</title>
     </head>
     <body>
-    
-            <h1 class="font">CIT 261 Learning Portfolio</h1>            
+                
 
             <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
        
@@ -21,11 +20,22 @@ and open the template in the editor.
                 CSS3 Transforms
                 <br>
                 Use the drop down menu to view the HTML, CSS, and Result.
+                *Use Google Chrome for best result 
                 
                 <br>
-                <iframe width="100%" height="500" src="//jsfiddle.net/acgriffiths/yxevwcbc/32/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+                
+                <iframe height="500" src="//jsfiddle.net/acgriffiths/yxevwcbc/32/embedded/" frameborder="0"></iframe>
             
+                <br> 
+            
+                <iframe height="360" src="https://www.youtube.com/embed/c_cRXz0ZZP8?rel=0&amp;showinfo=0" frameborder="0"></iframe>
+        
                 <br>
+                Timestamps: <br>
+                <a href="https://youtu.be/c_cRXz0ZZP8?t=44s">Teaching CSS3 Transforms: 0:44</a> <br>
+                <a href="https://youtu.be/c_cRXz0ZZP8?t=11m16s">Questions on CSS3 Transitions: 11:18</a> <br>
+                <a href="https://youtu.be/c_cRXz0ZZP8?t=15m02s">Questions on CSS3 Animations: 15:02</a><br>
+                
                 Sources:
                 <br>
                 <a href="http://www.w3schools.com/css/css3_2dtransforms.asp" title="w3Schools">http://www.w3schools.com/css/css3_2dtransforms.asp</a>
@@ -33,7 +43,7 @@ and open the template in the editor.
             
         
         
-        
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/footer.php'; ?>
         
     </body>
         
