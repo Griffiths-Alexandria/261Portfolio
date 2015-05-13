@@ -44,10 +44,13 @@ and open the template in the editor.
                 <br>
                 <a href="http://easings.net/" title="easings">Easing Functions</a>
                 <br>
+                
                 Sources: <br>
                 <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions" title="mozilla trans">Mozilla CSS3 Transitions</a>
                 <br>
                 <a href="http://cubic-bezier.com/#.17,.67,.83,.67">Cubic-Bezier Tool</a>
+                <br>
+                <a href="https://css-tricks.com/almanac/properties/t/transition/" title="cssresource">Another great resource for CSS Transitions</a>
             </p>
             
 

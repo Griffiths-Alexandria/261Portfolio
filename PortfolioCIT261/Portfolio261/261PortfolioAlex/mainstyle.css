@@ -130,4 +130,10 @@ h6 {
 .title {
     font-size: 3em; 
     text-align: center; 
+    transition-timing-function: ease-in; 
+    transition: 3s; 
+}
+
+.title:hover {
+    font-size: 4em; 
 }
