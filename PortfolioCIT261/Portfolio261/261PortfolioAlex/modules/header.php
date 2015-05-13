@@ -1,4 +1,5 @@
-<h1 class="font">CIT 261 Understanding Portfolio</h1>   
+<h1 class="title">Alex's Understanding Portfolio</h1>   
+
 
 <h2 class="font"><a href="/index.php" title="Home">HOME</a></h2>
 

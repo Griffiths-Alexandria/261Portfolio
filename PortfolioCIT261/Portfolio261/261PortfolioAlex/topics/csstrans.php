@@ -17,18 +17,41 @@ and open the template in the editor.
        
         
 
-            <p class="font">
+            <p class="title">
                 CSS3 Transitions
-                
-                <br>This portfolio site will serve as a collection 
-                of the semester's initial understanding topic 
-                definitions and examples.
-                
             </p>
             
-        
-        
-        
+            <p class="paragraph">
+                <br>The basic CSS syntax structure for transitions is: <br>
+                 div {<br>
+                    transition: &lt;property&gt; &lt;duration&gt; &lt;timing-function&gt; &lt;delay&gt;; <br>
+                    }
+                    <br>
+                    CSS3 Transitions main implementation is to control the animation properties. Instead of having
+                    the animation take place instantaneously, implementing the transition will stretch the animation process
+                    for a more appealing display. 
+                    <br>
+                    One of the most important properties of using the transition element is that you will have to list your
+                    properties explicity, the duration (how long the transition will last), the timing function (start to finish 
+                    transition time), and the delay (how long after the hover, or other start property, will last). 
+            </p>
+
+            <p class="font">
+                Here are some basic transition samples. You can edit for yourself in JSFiddle.net<br>
+                <iframe height="600" src="//jsfiddle.net/acgriffiths/a6m1rv1a/3/embedded/result,html,css/"  frameborder="0"></iframe>
+                <br> 
+                More Cubic-Bezier easing transitions: 
+                <br>
+                <a href="http://easings.net/" title="easings">Easing Functions</a>
+                <br>
+                Sources: <br>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions" title="mozilla trans">Mozilla CSS3 Transitions</a>
+                <br>
+                <a href="http://cubic-bezier.com/#.17,.67,.83,.67">Cubic-Bezier Tool</a>
+            </p>
+            
+
+          <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/footer.php'; ?>  
         
     </body>
         

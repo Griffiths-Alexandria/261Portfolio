@@ -17,9 +17,11 @@ and open the template in the editor.
        
         
 
-            <p class="font">
+            <p class="title">
                 Spring 2015 CIT 261 
-                
+            </p>
+            
+            <p class="paragraph">
                 <br>This portfolio site will serve as a collection 
                 of the semester's initial understanding topic 
                 definitions and examples.

@@ -16,15 +16,19 @@ and open the template in the editor.
        
         
 
-            <p class="font">
+            <p class="title">
                 CSS3 Transforms
-                <br>
+            </p>
+            
+            <p class="paragraph">
                 Use the drop down menu to view the HTML, CSS, and Result.
-                *Use Google Chrome for best result 
-                
+                <br> *Use Google Chrome for best result 
+            </p>
+            
+            <p class="font">
                 <br>
                 
-                <iframe height="500" src="//jsfiddle.net/acgriffiths/yxevwcbc/32/embedded/" frameborder="0"></iframe>
+                <iframe height="500" src="//jsfiddle.net/acgriffiths/yxevwcbc/32/embedded/result,html,css/" frameborder="0"></iframe>
             
                 <br> 
             
