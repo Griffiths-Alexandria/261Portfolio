@@ -17,7 +17,7 @@ and open the template in the editor.
        
         
 
-            <p class="title">
+            <p class="titletrans">
                 CSS3 Transitions
             </p>
             
@@ -53,6 +53,15 @@ and open the template in the editor.
                 <a href="https://css-tricks.com/almanac/properties/t/transition/" title="cssresource">Another great resource for CSS Transitions</a>
             </p>
             
+            <p class="font">
+                Topic Presentations
+                <iframe height="315" src="https://www.youtube.com/embed/wel4Fb70P6Y" frameborder="0" allowfullscreen></iframe>
+           <br>
+                Timestamps: <br>
+                <a href="https://youtu.be/wel4Fb70P6Y?t=12m56s">Teaching CSS3 Transitions: 12:56</a> <br>
+                <a href="https://youtu.be/wel4Fb70P6Y?t=10m7s">Questions on CSS3 Animations: 10:17</a><br>
+
+            </p>
 
           <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/footer.php'; ?>  
         

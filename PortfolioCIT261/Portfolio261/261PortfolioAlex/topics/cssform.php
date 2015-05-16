@@ -16,7 +16,7 @@ and open the template in the editor.
        
         
 
-            <p class="title">
+            <p class="titleforms">
                 CSS3 Transforms
             </p>
             

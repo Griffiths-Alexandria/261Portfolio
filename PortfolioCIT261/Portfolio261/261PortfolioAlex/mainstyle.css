@@ -127,13 +127,24 @@ h6 {
     font-size: 1.5em; 
 }
 
-.title {
+.titletrans {
     font-size: 3em; 
     text-align: center; 
-    transition-timing-function: ease-in; 
-    transition: 3s; 
+    transition: 2000ms cubic-bezier(.32,-1.04,.55,1.65);  
 }
 
-.title:hover {
+.titletrans:hover {
     font-size: 4em; 
 }
+
+.title {
+    font-size: 3em; 
+}
+
+.titleforms {
+    font-size: 3em; 
+}
+
+.titleforms:hover {
+    transform: rotatex(180deg); 
+   }
