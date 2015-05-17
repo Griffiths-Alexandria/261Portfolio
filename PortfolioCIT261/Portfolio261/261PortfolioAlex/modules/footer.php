@@ -1,5 +1,8 @@
 <footer class='font'>
     <h6>Alex Lenz's CIT261 Community Sites</h6>
+
+    <a href="https://github.com/Griffiths-Alexandria/261Portfolio" title="githubrepo">GitHub Repo</a>
+    <br>
     <a href="/sharingvideos.php" title="Sharing Videos">Sharing Videos</a>
     <br>
     <a href="https://webbusinessmama.wordpress.com/category/cit261/" title="261blog">Weekly Reflections</a>
