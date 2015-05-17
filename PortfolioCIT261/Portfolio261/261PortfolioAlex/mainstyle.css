@@ -148,3 +148,20 @@ h6 {
 .titleforms:hover {
     transform: rotatex(180deg); 
    }
+   
+.two {
+    padding-top: 300px; 
+   }  
+ 
+.three {
+    padding-top: 300px; 
+   }    
+   
+.one {
+       padding-bottom: 500px; 
+      
+   }   
+   
+.slowtran {
+       transition-duration: 2000ms; 
+   }   
