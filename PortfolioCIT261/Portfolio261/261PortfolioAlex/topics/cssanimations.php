@@ -41,11 +41,14 @@ and open the template in the editor.
                 <iframe height="500" src="//jsfiddle.net/acgriffiths/q3f5zpes/2/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
                 <br> 
             
-                
+                <iframe height="315" src="https://www.youtube.com/embed/is1ryMFMfyw" frameborder="0" allowfullscreen></iframe>
         
                 <br>
                 Timestamps: <br>
-                <a href="#">Yay for Animations</a> <br>
+                <a href="https://youtu.be/is1ryMFMfyw?t=8m43s">Asking About Transformations</a> <br>
+                <a href="https://youtu.be/is1ryMFMfyw?t=13m5s">Presenting Animations</a> <br>
+                <a href="https://youtu.be/is1ryMFMfyw?t=28m27s">Asking about Transitions</a> <br>
+                <a href="https://youtu.be/is1ryMFMfyw?t=39m32s">Asking about Local Storage</a> <br>
 
                 Animation on Personal Site: <br>
                 <a href="http://lenzancestry.capturedarrow.com" title="336">Lenz Ancestry [under construction]</a>
@@ -53,7 +56,8 @@ and open the template in the editor.
                 <br>
                 Sources:
                 <br>
-                <a href="#" title="w3Schools">'sources, yo.</a>
+                <a href="http://www.w3schools.com/css/css3_animations.asp" title="w3Schools">W3Schools Animation</a>
+                
             </p>
             
         
