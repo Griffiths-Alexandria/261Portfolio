@@ -12,6 +12,26 @@ body {
     background-image: url("/images/background261.jpg")
 }
 
+.span {
+  word-wrap: break-word;
+  color: #ffffff;
+  float: right;
+  position: relative;
+  width: 70%;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #519193;
+  margin-top: 0px;
+  padding-left: 10px; 
+  /* text-align: center; */
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+
+
+
 #center {
     margin: auto; 
 }
@@ -124,7 +144,7 @@ h6 {
 
 .paragraph {
     text-align: left; 
-    font-size: 1.5em; 
+    font-size: 1.25em; 
 }
 
 .titletrans {
@@ -206,4 +226,96 @@ h6 {
     -webkit-animation-name: flipInX; 
     backface-visibility: visible !important; 
     animation-name: flipInX; 
+}
+
+@media screen and (max-width: 480px){
+    .title {
+        font-size: 1em; 
+    
+        width: 100%;
+        margin-right: 0px;
+        margin-top: 10px;
+}
+    
+    h2 {
+        font-size: 1em; 
+    }
+    
+    #cssmenu {
+        
+    }
+    
+    #box {
+    width: 80%;
+        
+    text-align: center;
+    /* padding-left: 45px; */
+    }
+
+    footer {
+    display: table;
+    
+    /* padding-top: 500px; */
+    position: relative;
+}
+    .paragraph {
+    font-size: 1em;
+    
+    width: 95%;
+    margin: auto;
+}
+    
+    .font {
+    font-size: 1em;
+        
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    
+    .span {
+    font-size: 1em;
+        
+    width: 95%;
+    margin: auto;
+}
+    
+    body {
+    width: 100%;
+        
+    margin-right: 0px;
+}
+
+.font a {
+    font-size: 1em;
+    word-wrap: break-word; 
+}
+
+.titleanimations {
+    font-size: 1em;
+    
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titleforms {
+    font-size: 1em;
+    
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titletrans {
+    font-size: 1em;
+    
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 }
