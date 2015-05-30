@@ -125,7 +125,14 @@ document.getElementById("output").innerHTML = "Jedi's Name: " + jedi.name + "<br
         <p class="font">
             Working JSFiddle to try code. 
         <iframe height="500" src="//jsfiddle.net/acgriffiths/dfa8oLyj/2/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+        
+        <br>
+        Team Meeting <br>
+        Team Members: Keith, Daniel, Alex, and Christian
+        <iframe height="360" src="https://www.youtube.com/embed/skUKXaW80dE" frameborder="0" allowfullscreen></iframe>
+        
         </p>
+        
         
         
         <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/footer.php'; ?>
