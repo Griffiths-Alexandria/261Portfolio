@@ -23,7 +23,10 @@ and open the template in the editor.
                 
             </p>
             
-        
+            <p class="font">
+                5.01 Sharing Video - JavaScript Objects 
+                <iframe height="315" src="https://www.youtube.com/embed/fss9FnadJag" frameborder="0" allowfullscreen></iframe>
+            </p>
         
         
         
