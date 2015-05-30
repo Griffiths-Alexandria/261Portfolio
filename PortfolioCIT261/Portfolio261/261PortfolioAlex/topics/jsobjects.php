@@ -124,7 +124,7 @@ document.getElementById("output").innerHTML = "Jedi's Name: " + jedi.name + "<br
                     
         <p class="font">
             Working JSFiddle to try code. 
-        <iframe height="500" src="//jsfiddle.net/acgriffiths/dfa8oLyj/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+        <iframe height="500" src="//jsfiddle.net/acgriffiths/dfa8oLyj/2/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
         </p>
         
         
