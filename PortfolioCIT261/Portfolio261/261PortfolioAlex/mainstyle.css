@@ -228,6 +228,39 @@ h6 {
     animation-name: flipInX; 
 }
 
+#userinfo {
+      color: #ffffff;
+  float: right;
+  position: relative;
+  width: 70%;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #519193;
+  margin-top: 0px;
+  padding-left: 10px; 
+  text-align: center;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+#savedinfo {
+    color: #ffffff;
+  float: right;
+  position: relative;
+  width: 70%;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #519193;
+  margin-top: 0px;
+  padding-left: 10px; 
+  text-align: center;
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+
 @media screen and (max-width: 480px){
     .title {
         font-size: 1em; 

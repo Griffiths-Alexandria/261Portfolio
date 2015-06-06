@@ -130,6 +130,16 @@ document.getElementById("output").innerHTML = "Jedi's Name: " + jedi.name + "<br
         Team Meeting <br>
         Team Members: Keith, Daniel, Alex, and Christian
         <iframe height="360" src="https://www.youtube.com/embed/skUKXaW80dE" frameborder="0" allowfullscreen></iframe>
+        <br>
+        TimeStamps: 
+        <br>
+        <a href="https://youtu.be/skUKXaW80dE?t=4s">Teaching about JavaScript Objects</a>
+        <br>
+        Sources:
+        <br>
+        <a href="http://www.w3schools.com/js/js_object_definition.asp">w3Schools - JavaScript Objects</a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=6xLcSTDeB7A">thenewboston JavaScript Object tutorial</a> 
         
         </p>
         
