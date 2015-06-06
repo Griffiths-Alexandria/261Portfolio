@@ -43,30 +43,7 @@ and open the template in the editor.
              
 
             <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
-       
-        
 
-            <p class="font">
-                Local Data Storage 
-                
-                <br>
-                
-            </p>
-            
-            
-                <section id="userinfo">
-                    <form>
-                       Name: <input type="text" id="username">
-                       <br>
-                       Favorite Food: <input type="text" id="food">
-                       <br>
-                       <input type="button" id="button" value="Save Choice">
-                    </form>
-                </section>                
-     
-            <section id="savedinfo">
-               Saved info will display here. 
-            </section>
 
         <p class="paragraph"> Web Storage is a client based storage system that enables a user to define variables and it's values. 
             "With local storage, web applications can store data locally within the user's browser. Before HTML5, application data had to be stored in cookies, included in every server request. Local storage is more secure, 
@@ -125,7 +102,27 @@ function display(){
 window.addEventListener("load", doButton, false); 
 
             </span></code></pre>  
-        </div>    
+        </div>   
+        
+        <p class="font">
+                Local Data Storage 
+                
+                <br>
+                
+        </p>
+            <section id="userinfo">
+                <form>
+                   Name: <input type="text" id="username">
+                   <br>
+                   Favorite Food: <input type="text" id="food">
+                   <br>
+                   <input type="button" id="button" value="Save Choice">
+                </form>
+            </section>                
+     
+            <section id="savedinfo">
+               Saved info will display here. 
+            </section>
         
         <p class="font">
             Team Meeting <br>
