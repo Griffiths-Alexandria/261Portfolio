@@ -7,7 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/meta.php'; ?>
-        <title>261 Portfolio Home</title>
+        <title>Team Codes</title>
     </head>
     <body>
     
@@ -18,12 +18,12 @@ and open the template in the editor.
         
 
             <p class="font">
-                Methodologies 
-                
-                <br>This portfolio site will serve as a collection 
-                of the semester's initial understanding topic 
-                definitions and examples.
-                
+                Team Examples
+                <br>Collection of my team's codes according to topic
+            </p>
+            
+            <p class='paragraph'>
+                CSS Animations, Transitions, and Transforms
             </p>
             
         

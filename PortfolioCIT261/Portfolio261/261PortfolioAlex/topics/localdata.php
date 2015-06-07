@@ -43,6 +43,8 @@ and open the template in the editor.
              
 
             <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
+        
+        <p class="font">Local Data Storage</p>
 
 
         <p class="paragraph"> Web Storage is a client based storage system that enables a user to define variables and it's values. 
@@ -104,12 +106,7 @@ window.addEventListener("load", doButton, false);
             </span></code></pre>  
         </div>   
         
-        <p class="font">
-                Local Data Storage 
-                
-                <br>
-                
-        </p>
+
             <section id="userinfo">
                 <form>
                    Name: <input type="text" id="username">
