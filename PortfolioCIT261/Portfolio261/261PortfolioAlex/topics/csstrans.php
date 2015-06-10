@@ -38,7 +38,7 @@ and open the template in the editor.
 
             <p class="font">
                 Here are some basic transition samples. You can edit for yourself in JSFiddle.net<br>
-                <iframe height="600" src="//jsfiddle.net/acgriffiths/a6m1rv1a/3/embedded/result,html,css/"  frameborder="0"></iframe>
+                <iframe height="600" src="//jsfiddle.net/acgriffiths/a6m1rv1a/3/embedded/result,html,css/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
                 <br> 
                 More Cubic-Bezier easing transitions: 
                 <br>

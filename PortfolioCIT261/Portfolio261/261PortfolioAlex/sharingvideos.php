@@ -27,6 +27,11 @@ and open the template in the editor.
                 5.01 Sharing Video - JavaScript Objects 
                 <iframe height="315" src="https://www.youtube.com/embed/fss9FnadJag" frameborder="0" allowfullscreen></iframe>
             </p>
+            
+            <p class="font">
+                7.01 Sharing Video - DOM Manipulation
+                <iframe height="360" src="https://www.youtube.com/embed/K1nkgLMYeUk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            </p>
         
         
         

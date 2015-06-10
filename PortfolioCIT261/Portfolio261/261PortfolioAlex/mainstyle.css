@@ -14,14 +14,14 @@ body {
 
 .span {
   word-wrap: break-word;
-  color: #ffffff;
+  color: #232726;
   float: right;
   position: relative;
   width: 70%;
-  font-size: 18px;
+  font-size: 16px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #519193;
+  background-color: #ffffff;
   margin-top: 0px;
   padding-left: 10px; 
   /* text-align: center; */
