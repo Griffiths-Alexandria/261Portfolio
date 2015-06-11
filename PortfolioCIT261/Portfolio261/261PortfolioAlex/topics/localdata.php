@@ -44,7 +44,7 @@ and open the template in the editor.
 
             <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/header.php'; ?>
         
-        <p class="font">Local Data Storage</p>
+        <p class="title">Local Data Storage</p>
 
 
         <p class="paragraph"> Web Storage is a client based storage system that enables a user to define variables and it's values. 

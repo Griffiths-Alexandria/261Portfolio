@@ -33,7 +33,7 @@ and open the template in the editor.
                 <iframe height="360" src="https://www.youtube.com/embed/K1nkgLMYeUk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
             </p>
         
-        
+        <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/footer.php'; ?>
         
     </body>
         
