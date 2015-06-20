@@ -19,11 +19,17 @@ and open the template in the editor.
         <p class="title">AJAX Example</p>
         
         <p class="paragraph">
-        Enter the type of food you are craving:
+            AJAX stands for Asynchronous JavaScript and XML. It is not a programming language, but a part of the XMLHTTPRequest component
+            with the ability to send and receive data without having to refresh the page.
+            <br>
+            You can test out this request ability and asynchronous response below:
+            <br><em>Notice the whole page does not refresh, rather just updates that one HTML Element</em>
+            <br><br>
+            <strong>Enter the type of food you are craving:</strong>
         <input type="text" id="userInput"/>  
         </p>
         <br>
-        <p id="underInput" class="paragraph"></p>
+        <p id="underInput" class="font"></p>
       
         <p class="font">HTML View</p>
         
@@ -53,7 +59,8 @@ and open the template in the editor.
             </pre>
         </div>
         
-        <p class="font">PHP Code</p>
+        <p class="font">PHP Code
+            <br> I used PHP in order to store a restaurant genre array to match the user input and to provide an example of asynchronous feedback</p>
         
         <div class="span">
             <pre>
@@ -64,20 +71,20 @@ header('Content-Type: text/xml');
 echo '&lt;?xml version="1.0" encoding="UTF-8" standalone="no" ?&gt;';
 
 echo '&lt;response&gt;'; 
-    $food = $_GET['food'];
-    $foodArray = array('Mexican', 'Italian', 'Salad', 'American', 'Sushi', 'Pho'); 
-        if($food == 'Mexican'){
-            echo 'Las Cuatros Milpas is an excellent '.$food.' restaurant';
-        } elseif($food == 'Italian') {
-            echo 'Buca di Beppo is an excellent '.$food.' restaurant';
-        } elseif($food == 'Salad') {
+    $food = strtolower($_GET['food']);
+    $foodArray = array('mexican', 'italian', 'salad', 'american', 'sushi', 'pho'); 
+        if($food == 'mexican'){
+            echo 'Las Cuatros Milpas is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'italian') {
+            echo 'Buca di Beppo is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'salad') {
             echo 'Souplantation is an excellent '.$food.' restaurant';
-        } elseif($food == 'American') {
-            echo 'In-N-Out is an excellent '.$food.' restaurant';
-        } elseif($food == 'Sushi') {
-            echo 'LoveBoat Sushi is an excellent '.$food.' restaurant';
-        } elseif($food == 'Pho') {
-            echo 'Pho-Ever is an excellent '.$food.' restaurant';
+        } elseif($food == 'american') {
+            echo 'In-N-Out is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'sushi') {
+            echo 'LoveBoat Sushi is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'pho') {
+            echo 'Pho-Ever is an excellent '.ucfirst($food).' restaurant';
         } elseif ($food =='') {
             echo 'Choose a genre of food, yo!'; 
         } else
@@ -88,7 +95,8 @@ echo'&lt;/response&gt;';
             </pre>
         </div>
         
-        <p class="font">JavaScript Code</p>
+        <p class="font">JavaScript Code
+            <br> JavaScript is used to make the asynchronous request to the server, modifying the specific document element requested</p>
         
         <div class="span">
             <pre>

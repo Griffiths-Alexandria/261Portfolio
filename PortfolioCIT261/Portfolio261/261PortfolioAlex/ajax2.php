@@ -4,20 +4,20 @@ header('Content-Type: text/xml');
 echo '<?xml version="1.0" encoding="UTF-8" standalone="no" ?>';
 
 echo '<response>'; 
-    $food = $_GET['food'];
-    $foodArray = array('Mexican', 'Italian', 'Salad', 'American', 'Sushi', 'Pho'); 
-        if($food == 'Mexican'){
-            echo 'Las Cuatros Milpas is an excellent '.$food.' restaurant';
-        } elseif($food == 'Italian') {
-            echo 'Buca di Beppo is an excellent '.$food.' restaurant';
-        } elseif($food == 'Salad') {
-            echo 'Souplantation is an excellent '.$food.' restaurant';
-        } elseif($food == 'American') {
-            echo 'In-N-Out is an excellent '.$food.' restaurant';
-        } elseif($food == 'Sushi') {
-            echo 'LoveBoat Sushi is an excellent '.$food.' restaurant';
-        } elseif($food == 'Pho') {
-            echo 'Pho-Ever is an excellent '.$food.' restaurant';
+    $food = strtolower($_GET['food']);
+    $foodArray = array('mexican', 'italian', 'salad', 'american', 'sushi', 'pho'); 
+        if($food == 'mexican'){
+            echo 'Las Cuatro Milpas in Barrio Logan is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'italian') {
+            echo 'Buca di Beppo in San Diego is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'salad') {
+            echo 'Souplantation in Vista is an excellent '.$food.' restaurant';
+        } elseif($food == 'american') {
+            echo 'In-N-Out is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'sushi') {
+            echo 'LoveBoat Sushi in San Marcos is an excellent '.ucfirst($food).' restaurant';
+        } elseif($food == 'pho') {
+            echo 'Pho-Ever in Vista is an excellent '.ucfirst($food).' restaurant';
         } elseif ($food =='') {
             echo 'Choose a genre of food, yo!'; 
         } else
