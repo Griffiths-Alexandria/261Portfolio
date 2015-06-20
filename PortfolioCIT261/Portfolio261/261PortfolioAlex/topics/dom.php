@@ -98,7 +98,7 @@ would give something like
 
 
 So these are element nodes, text nodes and attribute nodes.
-        
+            </pre>
         </div>
         <p class="paragraph"> 
             Identifying the different nodes will help us understand the DOM syntax using .firstChild, .lastChild, and .childNodes. These
