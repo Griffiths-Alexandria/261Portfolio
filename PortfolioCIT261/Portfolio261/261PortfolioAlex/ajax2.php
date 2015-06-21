@@ -19,9 +19,9 @@ echo '<response>';
         } elseif($food == 'pho') {
             echo 'Pho-Ever in Vista is an excellent '.ucfirst($food).' restaurant';
         } elseif ($food =='') {
-            echo 'Choose a genre of food, yo!'; 
+            echo 'Choose a genre of food.'; 
         } else
-            echo 'We have great suggestions for Mexican, Italian, Salad, American, Sushi, and Pho!'; 
+            echo 'We have great suggestions for Mexican, Italian, Salad, American, Sushi, and Pho'; 
    
 echo'</response>'; 
 

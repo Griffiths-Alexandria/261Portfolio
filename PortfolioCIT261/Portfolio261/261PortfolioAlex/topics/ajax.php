@@ -170,6 +170,19 @@ function handleServerResponse(){
                 </code>
             </pre>
         </div>
+        
+        <p class="font">
+            Team Meeting:
+            <br> AJAX, DOM Manipulation, and JSON
+            <iframe height="315" src="https://www.youtube.com/embed/_Ot0Y4wxCfU" frameborder="0" allowfullscreen></iframe>
+            Timestamps:
+            <br>
+            <a href="https://youtu.be/_Ot0Y4wxCfU?t=3m">Asking about JSON</a>
+            <br>
+            <a href="https://youtu.be/_Ot0Y4wxCfU?t=7m12s">Teaching AJAX</a>
+            <br>
+            <a href="https://youtu.be/_Ot0Y4wxCfU?t=32m1s">Talking about Asynchronous vs Synchronous</a>
+        </p>
          <?php include $_SERVER['DOCUMENT_ROOT']. '/modules/footer.php'; ?>
     </body>
         
