@@ -18,12 +18,13 @@ and open the template in the editor.
         
 
             <p class="font">
-                Team Examples
-                <br>Collection of my team's codes according to topic
+                Musketeer Development Meetings
+                <br>For review, clarification, and reference.
             </p>
             
-            <p class='paragraph'>
-                CSS Animations, Transitions, and Transforms
+            <p class="font">
+                First Development Meeting
+                <iframe height="315" src="https://www.youtube.com/embed/lkjR76UOycE" frameborder="0" allowfullscreen></iframe>
             </p>
             
         

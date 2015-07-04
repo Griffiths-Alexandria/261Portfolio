@@ -17,7 +17,7 @@
                 <li><a href="/topics/ajax.php" title="AJAX" class="font">AJAX</a></li>
                 <li><a href="/topics/json.php" title="JSON" class="font">JSON</a></li>
                 <li><a href="/topics/localdata.php" title="Local Data Storage" class="font">Local Data Storage</a></li>
-                <li><a href="/topics/teamcodes.php" title="Team Codes" class="font">Teammates Codes</a></li>
+                <li><a href="/topics/teamcodes.php" title="Dev Meetings" class="font">Development Meetings</a></li>
             </ul>
             
 
