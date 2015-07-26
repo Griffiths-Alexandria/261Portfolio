@@ -28,7 +28,8 @@ and open the template in the editor.
                 
             </p>
             
-            <p class="paragraph">
+            <p class="font">
+                Final Journal Report <br>
                 <iframe height="315" src="https://www.youtube.com/embed/OiFxmfT_BgU" frameborder="0" allowfullscreen></iframe>
             </p>
             
